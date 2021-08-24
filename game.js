@@ -88,6 +88,9 @@ function checkAnswer(currentLevel) {
 
     $("#level-title").text("Game Over, Press Any Key To Start");//update h1 text
 
+    let audio = new Audio("sounds/wrong.mp3");
+    audio.play();
+
     startOver(); //call startOver()
   }
   
