@@ -9,3 +9,8 @@
 2. If the user succeeds, next level begins and the game becomes progressively longer and more complex.
 3. Once the user fails, the game is over.
 4. User repress the keyboard again to restart the game.
+
+####Technologies:
+1. HTML
+2. CSS
+3. Javascript
