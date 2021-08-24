@@ -37,7 +37,8 @@ function nextSequence() {
   //Once nextSquence() is triggered, reset the userClickedPattern array to empty to ready for the next level
   userClickedPattern = [];
 
-  level++;//increase level number by 1
+  // level ++;//increase level number by 1
+  // console.log(level);
 
   $("#level-title").text("Level " + level);//update h1 text with level number
 
@@ -75,7 +76,8 @@ function checkAnswer(currentLevel) {
         nextSequence()//call the nextSquence function after 1000ms delay
       }, 1000);
       //reset the array of user answers to empty array to start next level
-      userClickedPattern.splice(0, userClickedPattern.length); 
+      userClickedPattern = [];
+      level++;
     }
   } else {//if one of user click pattern is not the same with game pattern
     console.log("wrong");
