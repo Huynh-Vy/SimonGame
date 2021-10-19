@@ -13,7 +13,7 @@
 7. Once the user fails, the game is over.
 8. User repress the keyboard again to restart the game.
 
-####Technologies:
+#### Technologies:
 1. HTML
 2. CSS
 3. Javascript
